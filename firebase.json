@@ -5,6 +5,11 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "redirects": [ {
+      "source" : "/slides",
+      "destination" : "https://github.com/bdemers/slides",
+      "type" : 301
+    } ]
   }
 }
