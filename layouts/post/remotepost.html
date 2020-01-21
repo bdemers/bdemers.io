@@ -1,0 +1,10 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>{{ .Params.title }}</title>
+    <meta http-equiv="refresh" content="0;URL='{{ .Params.remote_url }}'" />
+</head>
+<body>
+
+<p>This post "{{ .Params.title }}" is hosted at <a href="{{ .Params.remote_url }}">{{ .Params.remote_url }}</a>.</p>
+</body>
+</html>
