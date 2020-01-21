@@ -5,7 +5,7 @@ googleAnalytics = ""
 theme = "future-imperfect"
 
 preserveTaxonomyNames = true
-paginate = 3
+paginate = 5
 pluralizeListTitles = false
 
 [params]
