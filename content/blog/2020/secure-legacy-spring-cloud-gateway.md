@@ -14,6 +14,7 @@ categories:
 - Legacy
 - OAuth 2.0
 - OIDC
+- Tutorials
 ---
 
 One of the biggest challenges of adding OAuth 2.0 support to legacy applications is a lack of support in the underlying framework. Maybe it's homegrown, or maybe it's just old? Either way, migrating away from an old form-based login doesn't need to be so painful. In this post, I'll walk you through a low-code option using Spring Cloud Gateway and Okta.
