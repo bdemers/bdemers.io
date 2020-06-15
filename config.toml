@@ -43,6 +43,9 @@ pluralizeListTitles = false
   highlightjsLang = ["r", "yaml", "css", "java"]
   highlightjsTheme = "github"
 
+  # theme configuration
+  customCSS              = ["default"]
+  customJS               = ["default"]
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
