@@ -17,7 +17,7 @@
         { "key" : "X-Frame-Options", "value" : "DENY" },
         { "key" : "X-XSS-Protection", "value" : "1; mode=block" },
         { "key" : "X-Content-Type-Options", "value" : "nosniff" },
-        { "key" : "Content-Security-Policy", "value" : "script-src 'self' maxcdn.bootstrapcdn.com cdnjs.cloudflare.com cdn.bootcss.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com maxcdn.bootstrapcdn.com" },
+        { "key" : "Content-Security-Policy", "value" : "script-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com cdnjs.cloudflare.com cdn.bootcss.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com maxcdn.bootstrapcdn.com" },
         { "key" : "Referrer-Policy", "value" : "strict-origin-when-cross-origin" },
         { "key" : "Strict-Transport-Security", "value" : "max-age=2592000" },
         { "key" : "Feature-Policy", "value" : "vibrate 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'none'; payment 'none'" }
