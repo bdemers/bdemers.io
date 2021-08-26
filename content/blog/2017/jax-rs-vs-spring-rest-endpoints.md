@@ -5,7 +5,7 @@ date: 2017-01-09
 author: bdemers
 layout: remotepost
 remote_url: https://stormpath.com/blog/jax-rs-vs-spring-rest-endpoints
-featuredabsurl: http://stormpath.com/wp-content/uploads/2016/11/IMG_1878.jpg
+featuredabsurl: https://stormpath.com/wp-content/uploads/2016/11/IMG_1878.jpg
 categories:
 - Java
 - JAX-RS

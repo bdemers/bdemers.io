@@ -5,7 +5,7 @@ date: 2017-01-18
 author: bdemers
 layout: remotepost
 remote_url: https://stormpath.com/blog/protecting-jax-rs-resources-rbac-apache-shiro
-featuredabsurl: http://stormpath.com/wp-content/uploads/2016/04/trooper-conga.jpg
+featuredabsurl: https://stormpath.com/wp-content/uploads/2016/04/trooper-conga.jpg
 categories:
 - Java
 - Apache Shiro
