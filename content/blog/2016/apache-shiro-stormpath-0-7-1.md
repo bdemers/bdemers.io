@@ -5,7 +5,7 @@ date: 2016-09-22
 author: bdemers
 layout: remotepost
 remote_url: https://stormpath.com/blog/apache-shiro-stormpath-0-7-1
-featuredabsurl: http://stormpath.com/wp-content/uploads/2016/09/yay.png
+featuredabsurl: https://stormpath.com/wp-content/uploads/2016/09/yay.png
 categories:
 - Java
 - Apache Shiro

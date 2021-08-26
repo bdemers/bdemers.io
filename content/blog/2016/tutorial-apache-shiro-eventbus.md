@@ -5,7 +5,7 @@ date: 2016-08-04
 author: bdemers
 layout: remotepost
 remote_url: https://stormpath.com/blog/tutorial-apache-shiro-eventbus
-featuredabsurl: http://stormpath.com/wp-content/uploads/2016/11/IMG_1878.jpg
+featuredabsurl: https://stormpath.com/wp-content/uploads/2016/11/IMG_1878.jpg
 categories:
 - Java
 - Apache Shiro
