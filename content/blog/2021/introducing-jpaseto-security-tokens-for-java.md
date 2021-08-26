@@ -1,6 +1,6 @@
 ---
 title: "Introducing JPaseto: Security Tokens For Java"
-date: 2020/07/23
+date: 2020-07-23
 description: JPaseto is a PASETO security token library for Java, learn more in this post.
 type: post
 author: bdemers
