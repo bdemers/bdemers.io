@@ -51,7 +51,7 @@ pluralizeListTitles = false
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
   header    = "Brian Demers"
-  paragraph = "Father, Geek, Podcast co-host <a href='http://www.codemonkey.fm/'>@CodeMonkeyTalks</a>, and Developer Advocate at <a href='https://developer.okta.com'>developer.okta.com</a>"
+  paragraph = "Father, Geek 🤓, <BR> Beekeeper 🐝, <BR> Java Champion ♨️, <a href='https://developer.okta.com'>Developer Advocate</a> 🥑"
   about     = ""
 
   # This appears at the top of the sidebar above params.intro.header.
