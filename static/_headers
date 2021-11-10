@@ -6,4 +6,4 @@
   Content-Security-Policy: script-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com cdnjs.cloudflare.com cdn.bootcss.com code.jquery.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com maxcdn.bootstrapcdn.com
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=2592000
-  Feature-Policy: vibrate 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'none'; payment 'none'
+  Permissions-Policy: geolocation=(), microphone=(), accelerometer=(), camera=()
