@@ -2,6 +2,7 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
+  Upgrade-Insecure-Requests: 1
   Content-Security-Policy: script-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com cdnjs.cloudflare.com cdn.bootcss.com code.jquery.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com maxcdn.bootstrapcdn.com
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=2592000
