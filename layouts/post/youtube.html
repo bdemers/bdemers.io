@@ -1,0 +1,12 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>{{ .Params.title }}</title>
+    <meta http-equiv="refresh" content="0;URL='https://youtu.be/{{ .Params.video_id }}'" />
+</head>
+<body>
+
+<p>
+    <iframe width="1142" height="642" src="https://www.youtube.com/embed/{{ .Params.video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
+</p>
+</body>
+</html>
