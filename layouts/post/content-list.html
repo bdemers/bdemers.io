@@ -6,8 +6,10 @@
   <footer>
     <ul class="actions">
       <li>
-        {{ if (isset .Params "remote_url") }}
+        {{ if eq .Params.layout "remotepost" }}
           <a href="{{ .Params.remote_url }}" class="button big">Continue Reading</a>
+        {{ else if eq .Params.layout "youtube" }}
+          <a href="https://youtu.be/{{ .Params.video_id }}" class="button big">Watch On Youtube</a>
         {{ else }}
           <a href="{{ .RelPermalink }}" class="button big">Continue Reading</a>
         {{ end }}

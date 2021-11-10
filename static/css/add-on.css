@@ -1,1 +1,12 @@
 /* custom css */
+
+/*style=""*/
+
+#main > article.post > div.video {
+    height: 565px
+}
+
+#recent-posts > div > div > article.mini-post > div.video {
+    width: 300px;
+    margin: 0 auto;
+}

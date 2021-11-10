@@ -17,7 +17,7 @@
             datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
             {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
         <span class="author">{{ .Params.author }}</span>
-        {{ if ne .Layout "remotepost" }}
+        {{ if and (ne .Layout "remotepost") (ne .Layout "youtube") }}
             {{ if .Site.Params.includeReadingTime }}
             <p>{{ .ReadingTime }} minute read</p>
             {{ end }}
