@@ -1,0 +1,3 @@
+User-agent: *
+{{ range where .Data.Pages "Params.type" "presentation" }}
+Disallow: {{ .RelPermalink }}{{ end }}

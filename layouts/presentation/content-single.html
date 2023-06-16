@@ -1,0 +1,52 @@
+<article class="post">
+  {{ $.Scratch.Set "HideDescription" true }}
+  {{ .Render "header" }}
+
+  {{ if isset .Params "notist" }}
+  <div id="slides">
+    <p data-notist="{{ .Params.Notist }}">
+      View <a href="https://noti.st/{{ .Params.Notist }}"> {{ .Title }}</a> on Notist.</p>
+  </div>
+  <br>
+  {{ end }}
+
+  {{ if .Site.Params.socialShare }}
+    <section id="social-share">
+      <ul class="icons">
+        {{ partial "share-links" . }}
+      </ul>
+    </section>
+  {{ end }}
+
+  <div id="content">
+    {{ .Content }}
+  </div>
+
+  {{ if isset .Params "video" }}
+  <div id="video">
+    <h2>Video</h2>
+  </div>
+  {{ end }}
+
+  {{ if isset .Params "links" }}
+  <div id="resources">
+    <h2>Resources</h2>
+    <p>The following resources were mentioned during the presentation or are useful additional information.</p>
+    <ul class="resources">
+    {{ range $link := .Params.Links }}
+      <li>
+        <a href="{{ $link.url }}" title="{{ $link.name }}" target="_blank">{{ $link.name }}</a> <br>
+      </li>
+    {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+  <footer>
+    {{ .Render "footer-category" }}
+  </footer>
+
+</article>
+{{ .Render "comments" }}
+{{ .Render "prev-next" }}
+
+<script async src="https://on.notist.cloud/embed/002.js"></script>

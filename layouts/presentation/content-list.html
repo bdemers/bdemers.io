@@ -1,0 +1,11 @@
+<article class="post">
+  {{ $.Scratch.Set "HideDescription" false }}
+  {{ .Render "header" }}
+  {{ .Render "featured" }}
+  <footer>
+    <ul class="actions">
+      <li><a href="{{ .RelPermalink }}" class="button big">Continue Reading</a></li>
+    </ul>
+  {{ .Render "footer-category" }}
+  </footer>
+</article>

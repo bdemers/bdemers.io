@@ -1,0 +1,13 @@
+{{ partial "header" . }}
+<script async src="https://on.notist.cloud/embed/002.js"></script>
+    {{ $.Scratch.Set "shareNav" true }}
+    {{ partial "navbar" . }}
+    {{ partial "share-menu" . }}
+    <!-- Main -->
+    <div id="main">
+        <!-- Post -->
+        {{ $.Scratch.Set "h1" true }}
+        {{ .Render "content-single" }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}
