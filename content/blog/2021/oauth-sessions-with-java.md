@@ -1,6 +1,6 @@
 ---
 title: "Session Clustering for OAuth 2.0 Applications"
-date: 2021-07-07
+date: 2021-09-30
 description: "Learn how sessions are used with OAuth 2.0 and build an example with HAproxy, Redis, and Spring Boot."
 type: post
 author: bdemers
