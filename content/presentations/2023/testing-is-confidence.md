@@ -1,6 +1,6 @@
 ---
 title: "Testing is Confidence - A Developer's Perspective"
-date: 2023-06-20
+date: 2023-06-19
 description: "We all know testing is important, but many of us still struggle with the difference between unit tests and integration tests and build cycles that take too long."
 type: presentation
 author: bdemers
