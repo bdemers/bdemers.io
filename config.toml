@@ -8,6 +8,7 @@ enableRobotsTXT = "true"
 preserveTaxonomyNames = true
 paginate = 5
 pluralizeListTitles = false
+buildFuture = true
 
 [params]
   # Sets the meta tag description
