@@ -10,6 +10,7 @@ event_link: https://www.meetup.com/tampa-jug/events/295225492/
 featured: social.png
 featuredpath: /img/2023/tampa-jug-breeding-10x-devs
 notist: bdemers/IoV7wt
+youtube: 69fT4wnbdf4
 links:
 - name: Build Speed Challenge (Free Swag)
   url: https://gradle.com/gradle-and-maven-build-speed-challenge/
