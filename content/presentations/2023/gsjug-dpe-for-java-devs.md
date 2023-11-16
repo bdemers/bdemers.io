@@ -10,6 +10,7 @@ event_link: https://www.eventbrite.com/e/developer-productivity-engineering-what
 featured: social.jpeg
 featuredpath: /img/2023/gsjug-dpe-for-java-devs
 notist: bdemers/14yHZA
+youtube: 1rl412eOltE
 links:
 - name: 🏎️ Build Speed Challenge (Free Swag)
   url: https://gradle.com/gradle-and-maven-build-speed-challenge/
@@ -32,6 +33,7 @@ categories:
 - builds
 - dpe
 - productivity
+- java
 ---
 
 Developer Productivity Engineering (DPE) is the Next Big Thing in Software Development. But what is it? How will it foster Developer Joy? And how can you introduce it to your organization?
