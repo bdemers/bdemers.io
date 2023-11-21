@@ -21,6 +21,12 @@ links:
   url: https://diffoscope.org/
 - name: Reproducible Central
   url: https://github.com/jvm-repo-rebuild/reproducible-central
+- name: Maven Reproducible Builds Guide
+  url: https://maven.apache.org/guides/mini/guide-reproducible-builds.html
+- name: Maven Artifact Plugin
+  url: https://maven.apache.org/plugins/maven-artifact-plugin/check-buildplan-mojo.html
+- name: Gradle Reproducible Builds Guide
+  url: https://docs.gradle.org/current/userguide/working_with_files.html#sec:reproducible_archives
 - name: Cornell University & Qatalog Productivity Research
   url: https://assets.qatalog.com/language.work/qatalog-2021-workgeist-report.pdf
 - name: XcodeGhost
