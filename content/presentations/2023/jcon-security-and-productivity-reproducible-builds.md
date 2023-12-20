@@ -8,6 +8,7 @@ layout: single
 event_name: JCON World Online 2023
 event_link: https://2023.world.jcon.one/
 featured: social.png
+youtube: GMO-vijnBYs
 featuredpath: /img/2023/jcon-security-and-productivity-reproducible-builds/
 notist: bdemers/Vz0CkC
 links:
