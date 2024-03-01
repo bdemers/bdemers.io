@@ -10,7 +10,7 @@ event_link: https://gdg.community.dev/events/details/google-gdg-cloud-southlake-
 featured: social.jpeg
 featuredpath: /img/2024/gdg-southlake-breeding-10x-devs
 notist: bdemers/Il1A4r
-youtube: 69fT4wnbdf4
+youtube: vGfDkqfjHaQ
 links:
 - name: Build Speed Challenge (Free Swag)
   url: https://gradle.com/gradle-and-maven-build-speed-challenge/
