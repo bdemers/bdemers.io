@@ -112,6 +112,14 @@
   <li><a href="//{{.}}.tumblr.com" rel="me" target="_blank" title="Tumblr" class="fa fa-tumblr"></a></li>
 {{ end }}
 
+{{ with .Site.Social.mastodon }}
+<li><a href="//{{.}}" target="_blank" title="Fediverse/Mastodon" class="fa fa-mastodon"></a></li>
+{{ end }}
+
+{{ with .Site.Social.bluesky }}
+<li><a href="//bsky.app/profile/{{.}}" target="_blank" title="Bluesky" class="fa fa-bluesky"></a></li>
+{{ end }}
+
 {{ with .Site.Social.twitter }}
   <li><a href="//twitter.com/{{.}}" rel="me" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 {{ end }}
