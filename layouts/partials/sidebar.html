@@ -2,20 +2,20 @@
 <section id="sidebar">
 
   <!-- Intro -->
-  <section id="intro">
+  <section id="intro" class="h-card">
     {{ $pic := .Site.Params.intro.pic }}
     {{ with $pic.src }}
       {{ if $pic.circle }}
-        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+        <a href='{{"/" | relURL}}' class="u-url"><img src="{{ . | relURL }}" class="intro-circle u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
       {{ else if $pic.imperfect }}
-        <a href='{{"/" | relURL}}' class="logo"><img src="{{ . | relURL }}" alt="{{ $pic.alt }}" /></a>
+        <a href='{{"/" | relURL}}' class="logo u-url"><img src="{{ . | relURL }}" class="u-photo" alt="{{ $pic.alt }}" /></a>
       {{ else }}
-        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+        <a href='{{"/" | relURL}}' class="u-url"><img src="{{ . | relURL }}" class="u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
       {{ end }}
     {{ end }}
     {{ with .Site.Params.intro }}
       <header>
-        <h2>{{ .header }}</h2>
+        <h2 class="p-name">{{ .header }}</h2>
         <p>{{ .paragraph | safeHTML }}</p>
       </header>
     {{ end }}
