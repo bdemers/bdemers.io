@@ -16,7 +16,7 @@
     {{ with .Site.Params.intro }}
       <header>
         <h2 class="p-name">{{ .header }}</h2>
-        <p>{{ .paragraph | safeHTML }}</p>
+        <p class="p-note">{{ .paragraph | safeHTML }}</p>
       </header>
     {{ end }}
     {{ if .Site.Params.socialAppearAtTop }}
