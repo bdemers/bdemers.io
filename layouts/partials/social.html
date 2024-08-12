@@ -113,11 +113,11 @@
 {{ end }}
 
 {{ with .Site.Social.mastodon }}
-<li><a href="//{{.}}" target="_blank" title="Fediverse/Mastodon" class="fa fa-mastodon"></a></li>
+<li><a href="//{{.}}" rel="me" target="_blank" title="Fediverse/Mastodon" class="fa fa-mastodon"></a></li>
 {{ end }}
 
 {{ with .Site.Social.bluesky }}
-<li><a href="//bsky.app/profile/{{.}}" target="_blank" title="Bluesky" class="fa fa-bluesky"></a></li>
+<li><a href="//bsky.app/profile/{{.}}" rel="me" target="_blank" title="Bluesky" class="fa fa-bluesky"></a></li>
 {{ end }}
 
 {{ with .Site.Social.twitter }}
