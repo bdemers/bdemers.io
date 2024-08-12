@@ -13,10 +13,18 @@
         <a href='{{"/" | relURL}}' class="u-url"><img src="{{ . | relURL }}" class="u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
       {{ end }}
     {{ end }}
-    {{ with .Site.Params.intro }}
+
+    {{ $intro  := .Site.Params.intro }}
+    {{ $social := .Site.Social }}
+
+    {{ if $intro }}
       <header>
-        <h2 class="p-name">{{ .header }}</h2>
-        <p class="p-note">{{ .paragraph | safeHTML }}</p>
+        <h2 class="p-name">{{ $intro.header }}</h2>
+
+        {{ if $social.bridgy }}
+            <a href="https://{{ $social.bridgy }}" class="u-url u-uid" hidden="hidden">{{ $intro.header }}</a>
+        {{ end }}
+        <p class="p-note">{{ $intro.paragraph | safeHTML }}</p>
       </header>
     {{ end }}
     {{ if .Site.Params.socialAppearAtTop }}
