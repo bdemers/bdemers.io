@@ -105,3 +105,4 @@ buildFuture = true
   mastodon         = "mastodon.social/@bdemers"
   twitter          = "briandemers"
   email            = "bdemers@apache.org"
+  bridgy           = "bdemers.io"
