@@ -1,4 +1,7 @@
 {{ $.Scratch.Set "generalTitle" .Title }}
+
+{{ if ne ($.Scratch.Get "generalTitle") .Site.Title }}
+
 {{ if eq ($.Scratch.Get "generalTitle") "Blogs" }}
     {{ $.Scratch.Set "generalTitle" "Blog" }}
 {{ end }}
@@ -12,3 +15,4 @@
     {{ $.Scratch.Add "generalTitle" " - " }}
 {{ end }}
 {{ $.Scratch.Add "generalTitle" .Site.Title }}
+{{ end }}
