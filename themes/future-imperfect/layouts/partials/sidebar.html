@@ -6,11 +6,11 @@
     {{ $pic := .Site.Params.intro.pic }}
     {{ with $pic.src }}
       {{ if $pic.circle }}
-        <a href='{{"/" | relURL}}' class="u-url"><img src="{{ . | relURL }}" class="intro-circle u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+        <a href='{{"/" | relURL}}' ><img src="{{ . | relURL }}" class="intro-circle u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
       {{ else if $pic.imperfect }}
-        <a href='{{"/" | relURL}}' class="logo u-url"><img src="{{ . | relURL }}" class="u-photo" alt="{{ $pic.alt }}" /></a>
+        <a href='{{"/" | relURL}}' class="logo"><img src="{{ . | relURL }}" class="u-photo" alt="{{ $pic.alt }}" /></a>
       {{ else }}
-        <a href='{{"/" | relURL}}' class="u-url"><img src="{{ . | relURL }}" class="u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+        <a href='{{"/" | relURL}}' ><img src="{{ . | relURL }}" class="u-photo" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
       {{ end }}
     {{ end }}
 
@@ -23,6 +23,7 @@
 
         {{ if $social.bridgy }}
             <a href="https://{{ $social.bridgy }}" class="u-url u-uid" hidden="hidden">{{ $intro.header }}</a>
+            <a href="{{ .Site.BaseURL }}" class="u-url" hidden="hidden">blog</a>
         {{ end }}
         <p class="p-note">{{ $intro.paragraph | safeHTML }}</p>
       </header>
