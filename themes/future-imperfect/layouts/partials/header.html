@@ -73,6 +73,12 @@
             <link rel="me" href="https://web.brid.gy/r/https://{{ . }}">
         {{ end }}
 
+{{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl | absURL }}">
+{{ else }}
+    <link rel="canonical" href="{{ .RelPermalink | absURL }}">
+{{ end }}
+
 {{ if (not .Params.disable_highlight) }}
   {{ $highTheme := .Site.Params.highlightjsTheme }}
     {{ with .Site.Params.highlightjsVersion }}
