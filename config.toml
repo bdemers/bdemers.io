@@ -54,7 +54,7 @@ buildFuture = true
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
   header    = "Brian Demers"
-  paragraph = "Father, Geek 🤓, <BR> Beekeeper 🐝, <BR> Java Champion ♨️, <a href='https://gradle.com'>Developer Advocate</a> 🥑"
+  paragraph = "Father, Geek 🤓, <BR> Beekeeper 🐝, <BR> Java Champion ♨️, <a href='https://gradle.com' rel='p-org'>Developer Advocate</a> 🥑"
   about     = ""
 
   # This appears at the top of the sidebar above params.intro.header.
