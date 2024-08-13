@@ -83,11 +83,11 @@ buildFuture = true
 #  identifier = "fa fa-id-card-o"
 #  weight = 2
 
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  identifier = "fa fa-newspaper-o"
-  weight = 3
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  identifier = "fa fa-newspaper"
+#  weight = 3
 
 #[[menu.main]]
 #  name = "Presentations"
