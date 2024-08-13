@@ -6,6 +6,7 @@
 -->
 <html>
     <head>
+        <base href="{{ .Site.BaseURL }}/" target="_blank">
         {{ partial "seo_schema" . }}
         {{ with $.Scratch.Get "generalTitle" }}
             <title>{{ . }}</title>
