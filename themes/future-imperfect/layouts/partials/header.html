@@ -71,6 +71,8 @@
         {{ end }}
 
         {{ with .Site.Social.bridgy }}
+            <link rel="me" href="https://{{ . }}">
+            <link rel="me" href="{{ $.Site.BaseURL }}">
             <link rel="me" href="https://web.brid.gy/r/https://{{ . }}">
         {{ end }}
 
