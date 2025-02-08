@@ -95,7 +95,7 @@ buildFuture = true
 #  identifier = "fa fa-television"
 #  weight = 4
 
-[social]
+[params.social]
   github           = "bdemers"
   stackoverflow    = "6415199"
   linkedin         = "bdemers"

@@ -15,7 +15,7 @@
     {{ end }}
 
     {{ $intro  := .Site.Params.intro }}
-    {{ $social := .Site.Social }}
+    {{ $social := .Site.Params.Social }}
 
     {{ if $intro }}
       <header>
@@ -140,7 +140,7 @@
       {{ with .Site.Copyright | safeHTML }}
         {{ . }}
       {{ else }}
-        &copy; {{ .Site.LastChange.Year }}
+        &copy; {{ .Site.Lastmod.Year }}
         {{if isset .Site.Params "author" }}
           {{ .Site.Params.author}}
         {{ else }}
