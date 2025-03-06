@@ -10,6 +10,7 @@ event_link: https://devnexus.com
 featured: social.png
 featuredpath: /img/2025/devnexus-testing-on-thin-ice
 notist: bdemers/s3cxED
+youtube: vJyY7x69p0Y
 links:
 - name: Flaky Test Days
   url: https://gradle.com/blog/do-you-regularly-schedule-flaky-test-days/

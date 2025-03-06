@@ -10,6 +10,7 @@ event_link: https://2024.europe.jcon.one/schedule
 featured: social.png
 featuredpath: /img/2024/jcon-testing-on-thin-ice
 notist: bdemers/L3bnC1
+youtube: vJyY7x69p0Y
 links:
 - name: Flaky Test Days
   url: https://gradle.com/blog/do-you-regularly-schedule-flaky-test-days/

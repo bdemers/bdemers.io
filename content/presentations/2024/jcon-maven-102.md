@@ -10,6 +10,7 @@ event_link: https://2024.europe.jcon.one/schedule
 featured: social.jpeg
 featuredpath: /img/2024/jcon-maven-102
 notist: bdemers/lNXCSg
+youtube: WRDKVAFltr0
 links:
 - name: Apache Maven (project)
   url: https://maven.apache.org/
