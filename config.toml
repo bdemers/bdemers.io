@@ -6,7 +6,7 @@ theme = "future-imperfect"
 enableRobotsTXT = "true"
 
 preserveTaxonomyNames = true
-paginate = 5
+pagination.pagerSize = 5
 pluralizeListTitles = false
 buildFuture = true
 
