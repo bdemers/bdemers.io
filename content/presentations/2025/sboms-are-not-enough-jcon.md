@@ -33,6 +33,10 @@ links:
   url: https://www.securityweek.com/compromised-spotbugs-token-led-to-github-actions-supply-chain-hack/
 - name: in-toto (attestations)
   url: https://in-toto.io/
+- name: JReleaser attestations example
+  url: https://github.com/jreleaser/jreleaser/attestations
+- name: Dice Parser (Java & Kotlin)
+  url: https://github.com/diceroll-dev
 - name: Free Build Scan Service
   url: https://scans.gradle.com
 - name: The Developer Productivity Engineering (DPE) Handbook
